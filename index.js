@@ -29,10 +29,10 @@ app.listen(app.get('port'), function() {
 
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
-  host     : 'myhost',
-  user     : 'slackjs',
-  password : 'password123',
-  database : 'slackjs'
+  host     : '<MY_HOST_HERE>',
+  user     : '<MY_USERNAME_HERE>',
+  password : '<MY_PASSWORD_HERE>',
+  database : '<MY_DATABASE_HERE>'
 });
 
 connection.connect();
@@ -61,8 +61,8 @@ function callAPI(tempCode){
     request({
         url: 'https://slack.com/api/oauth.access',
         qs: {
-            client_id: "11111111.2234234234",
-            client_secret: "sfklj2lkfjalskdjklasjf",
+            client_id: "<CLIENT_ID_HERE",
+            client_secret: "CLIENT_SECRET_HERE",
             code: tempCode
         }, //Query string data
         method: 'GET', //Specify the method

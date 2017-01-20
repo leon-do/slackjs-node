@@ -4,4 +4,10 @@ client_id: "\<CLIENT_ID_HERE>"
 
 client_secret: "\<CLIENT_SECRET_HERE>"
 
-request('https://\<YOUR_WEBSITE_HERE>'
+host     : '<MY_HOST_HERE>'
+
+user     : '<MY_USERNAME_HERE>'
+
+password : '<MY_PASSWORD_HERE>'
+
+database : '<MY_DATABASE_HERE>'
