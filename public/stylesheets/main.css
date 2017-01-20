@@ -1,0 +1,26 @@
+@font-face {
+font-family: NeutraText;
+src: url("fonts/NeutraText-Bold.otf") format("opentype");
+}
+
+
+body{
+    background-color: #F0DB4E;
+    font-family: 'NeutraText';
+    text-align: center;
+}
+span{
+    color: #323230;
+    background-color: #F0DB4E;
+    border:2px solid #323230;
+    font-size: 30px;
+    border-radius: 15px;
+    font-family: 'NeutraText';
+    padding:15px;
+}
+span:hover{
+    cursor: pointer;
+}
+a {
+    text-decoration: none !important;
+}
